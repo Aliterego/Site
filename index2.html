@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Resume 2.0</title>
+
+    <style>
+        .body {
+            background: #eee;
+        }
+    </style>
+
+    <link rel="stylesheet" href="decor.css" >
+    <link rel="stylesheet" href="elements.css">
+</head>
+<body>
+    <div class="container">
+
+        <div class="info">
+            <img src="/html_course/imgs/ava.jpg" alt="photo" style="width: 200px; height: 300px;">
+            <div class="about-me">
+                <h1>Владислав</h1>
+                <p>Я студен курса <em>Result University!</em></p>
+
+                <h2>Мои страницы:</h2>
+                <div class="links">
+                    <ul>
+                        <li><a href="https://vk.com/ohcrr" target="_blank">Вконтакте</a></li>
+                        <li><a href="https://funpay.com/users/6480847/" target="_blank">Fun Pay</a></li>
+                    </ul>
+                </div>
+
+                <div class="skills">
+                    <h2>Изученные языки:</h2>
+                    <ul>
+                        <li>Python</li>
+                        <li>C++</li>
+                        <li>C#</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+
+        <div class="experience">
+            <h2>Опыт работы:</h2>
+            
+            <table>
+                <thead>
+                    <tr>
+                        <th>Профессия</th>
+                        <th>Должность</th>
+                        <th>Период</th>
+                    </tr>
+                    <tr>
+                        <td>Unity</td>
+                        <td>Junior</td>
+                        <td>2019-2021</td>
+                    </tr>
+                    <tr>
+                        <td>Unreal Engine</td>
+                        <td>Middle</td>
+                        <td>2021-2023</td>
+                    </tr>
+                    <tr>
+                        <td>Blender</td>
+                        <td>Middle</td>
+                        <td>2021-2023</td>
+                    </tr>
+                    <tr>
+                        <td>C# Developer</td>
+                        <td>Junior</td>
+                        <td>2023-2024</td>
+                    </tr>
+                </thead>
+            </table>
+        </div>
+
+        <div class="contact">
+            <h2>Обратная связь:</h2>
+
+            <div class="employer">
+                <div class="employer-input-data">
+                    <label for="name">Имя:</label>
+                    <input type="name" id="name" placeholder="Введите ваше Имя:">
+                </div>
+                <div class="employer-input-data">
+                    <label for="email">Почта:</label>
+                    <input type="email" id="email" placeholder="Введите ваш Email:">
+                </div>
+                <div class="employer-input-data">
+                    <label for="message">Сообщение:</label>
+                    <textarea name="message" id="message" placeholder="Введите ваше Сообщение:"></textarea>
+                </div>
+                <button class="button" type="submit">Отправить</button>
+            </div>
+        </div>
+
+    </div>
+</body>
+</html>

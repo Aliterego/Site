@@ -1,0 +1,21 @@
+.container {
+    margin: 10px;
+    box-shadow: 0 0 15px rgba(105, 105, 105, 0.8);
+    border-radius: 20px;
+    width: 500px;
+    margin: auto;
+    position: relative;
+}
+.info, .experience, .contact{
+    padding: 15px;
+}
+.info {
+    display: flex;
+}
+.experience, .experience h2{
+    margin-top: 0;
+    padding-top: 0;
+}
+.info .about-me {
+    padding-left: 15px;
+}

@@ -1,0 +1,71 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200..1000;1,200..1000&display=swap');
+
+.info img {
+    border-radius: 15px;
+}
+
+.info h1, .info h2, .info p, .info a, .experience h2, .experience table, .contact h2, .contact .employer{
+    font-family: "Nunito", sans-serif;
+    margin: 0;
+}
+.info h2 {
+    margin-top: 15px;
+}
+.info .links ul, .info .links a {
+    list-style: none;
+    padding: 0;
+    margin-top: 0;
+    text-decoration: none;
+    font-weight: 600;
+}
+.info .links a:hover{
+    text-decoration: underline;
+}
+.info .skills ul{
+    padding: 0;
+    padding-bottom: 13px;
+    margin-top: 0;
+    color: rgb(50, 50, 50);
+}
+.info .skills ul li:nth-child(2), .info .skills ul li:nth-child(3){
+    padding-top: 3px;
+}
+.skills li{
+    padding: 0;
+    margin-top: 0;
+    list-style: none;
+}
+.experience table th{
+    text-align: left;
+    padding-right: 35px;
+}
+
+.employer-input-data{
+    padding-bottom: 10px;
+}
+.employer-input-data input, .employer-input-data textarea {
+    border-style: none;
+    padding: 5px 0;
+    border-bottom: 1px solid #585858;
+    width: 100%;
+    max-width: 100%;
+    display: inline-block;
+    outline: none;
+}
+.button {
+    font-family: "Nunito", sans-serif;
+    margin: auto;
+    border: 1px solid rgb(255, 255, 255);
+    background: rgb(34, 34, 34);
+    border-radius: 15px;
+    color: white;
+    font: 500;
+    width: 150px;
+    height: 35px;
+    display: block;
+}
+.button:hover {
+    background: gray;
+    color: black;
+}
+
